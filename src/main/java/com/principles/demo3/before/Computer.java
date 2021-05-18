@@ -1,4 +1,5 @@
-package com.principles.demo3;
+package com.principles.demo3.before;
+
 
 /**
  * 使用一个计算机类，将具体的CPU、内存条、硬盘组合进来。

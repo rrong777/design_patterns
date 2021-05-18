@@ -1,4 +1,4 @@
-package com.principles.demo3;
+package com.principles.demo3.before;
 
 /**
  * 组装电脑示例
