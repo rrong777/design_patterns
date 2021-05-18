@@ -1,4 +1,4 @@
-package com.principles.demo2.error;
+package com.principles.demo2.before;
 
 /**
  * 正方形

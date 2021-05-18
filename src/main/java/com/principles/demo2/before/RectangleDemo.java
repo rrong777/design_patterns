@@ -1,4 +1,4 @@
-package com.principles.demo2.error;
+package com.principles.demo2.before;
 
 public class RectangleDemo {
     public static void main(String[] args) {
@@ -27,7 +27,6 @@ public class RectangleDemo {
      * 拓宽方法
      */
     public static void resize(Rectangle rectangle) {
-        // 长方形的长要大于宽
         // 如果长方形的宽小于等于长，进行拓宽操作
         while (rectangle.getWidth() <= rectangle.getLength()) {
             rectangle.setWidth(rectangle.getWidth() + 1);

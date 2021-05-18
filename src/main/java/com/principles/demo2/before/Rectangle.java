@@ -1,4 +1,4 @@
-package com.principles.demo2.error;
+package com.principles.demo2.before;
 
 /**
  * 里氏代换原则理解
