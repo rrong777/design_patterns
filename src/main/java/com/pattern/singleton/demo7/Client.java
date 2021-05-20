@@ -3,7 +3,7 @@ package com.pattern.singleton.demo7;
 import java.io.*;
 
 /**
- * 测试反射破坏单例模式
+ * 测试对象IO破坏单例模式
  */
 public class Client {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
