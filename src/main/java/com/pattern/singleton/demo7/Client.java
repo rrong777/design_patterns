@@ -7,9 +7,13 @@ import java.io.*;
  */
 public class Client {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-//        writeObject2File(); 将这个对象写到本地
+//        writeObject2File(); // 将这个对象写到本地
         readObjectFromFile(); // 读到本地即可
         readObjectFromFile(); // 读两次。都会打印，你会发现两次读一个 已经不是同一个了。单例模式已经被破坏了
+
+        // 在Singleton类对象内部，加上readResolve() 之后就会解决这个问题。
+        // why?
+        // ObjectInputStream。readObject() 里面有一层调用 最后 判断 hasReadResolveMethod(); // 有的话就调用
     }
 
     // 向文件中读数据（对象）
