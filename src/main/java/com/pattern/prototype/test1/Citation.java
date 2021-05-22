@@ -1,4 +1,6 @@
-package com.pattern.prototype.test;
+package com.pattern.prototype.test1;
+
+import java.io.Serializable;
 
 /**
  * 奖状类
@@ -7,8 +9,10 @@ package com.pattern.prototype.test;
  *
  *  性能和安全要求比较高的程序，可以使用克隆模式，
  *  要这个对象的时候，让他去复制，而不是new  去复制的话可以按照我们自己的逻辑去创建对象。
+ *
+ *
  */
-public class Citation implements Cloneable{
+public class Citation implements Cloneable, Serializable {
     // 三好学生的姓名
 //    private String name;
 //
