@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class A
+Class B implements Interface1
+Class C
+Class D implements Interface1
+interface Interface1 {
+    operation1():void
+    operation2():void
+    operation3():void
+    operation4():void
+    operation5():void
+}
+A ..> Interface1
+C ..> Interface1
+
+
+
+
+@enduml

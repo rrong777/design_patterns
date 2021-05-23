@@ -1,4 +1,4 @@
-package com.atguigu.priciples;
+package com.atguigu.priciples.singleResponsibility;
 
 /**
  * 单一职责原则
