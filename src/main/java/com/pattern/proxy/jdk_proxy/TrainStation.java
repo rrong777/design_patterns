@@ -8,4 +8,9 @@ public class TrainStation implements SellTickets {
     public void sell() {
         System.out.println("火车站卖票！");
     }
+
+    @Override
+    public void test() {
+        System.out.println("test");
+    }
 }

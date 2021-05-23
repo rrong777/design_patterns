@@ -5,4 +5,5 @@ package com.pattern.proxy.jdk_proxy;
  */
 public interface SellTickets {
     void sell();
+    void test();
 }
