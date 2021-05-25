@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>demo_spring</module>
+        <module>spring_demo</module>
     </modules>
 
     <properties>
