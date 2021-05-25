@@ -12,7 +12,7 @@
 <!--        http://www.springframework.org/schema/aop/spring-aop.xsd">-->
 <beans>
     <bean id="userDao" class="com.rrong777.dao.impl.UserDaoImpl">
-<!--        下面注入String类型的数据-->
+<!--        下面注入String类型的数据 -->
         <property name="username" value="zhangsan"></property>
         <property name="password" value="12456"></property>
     </bean>
